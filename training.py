@@ -13,10 +13,7 @@ def find_and_plot_lr():
     from the .lr_find() exploration. I used this, together with experimentation to 
     settle on good learning rates.''' 
     learn.lr_find()
-    learn.recorder.plot()
-
-
-    
+    learn.recorder.plot()  
 
 if __name__=='__main__': 
 
@@ -63,12 +60,10 @@ if __name__=='__main__':
     
     learn.save('stage-1')
     
-    
     # the loss function is cross entropy loss.
     learn.recorder.plot_losses()
     
     find_and_plot_lr()
-    
     
     # Up until now all the weights and biases from the pretrained model have been
     # held frozen. Only the output layer (which was replaced with an output layer
