@@ -63,27 +63,34 @@ if __name__=='__main__':
     # the loss function is cross entropy loss.
     learn.recorder.plot_losses()
     
-    find_and_plot_lr()
-    
     # Up until now all the weights and biases from the pretrained model have been
     # held frozen. Only the output layer (which was replaced with an output layer
     # of size 73) has been updated by gradient descent. 
     # learn.unfreeze() allows all the parameters of the neural net to be updated.
     learn.unfreeze()
     
+    find_and_plot_lr()
+    
     # Here slice allows us to train the parameters (weights and biases) of early layers
     # more slowly than we train parameters coming from later layers of the model.
     # More information about why we want to do it this way here 
     # https://arxiv.org/pdf/1311.2901.pdf
-    learn.fit_one_cycle(10, max_lr=slice(1e-5,5e-3))
+    learn.fit_one_cycle(10, max_lr=slice(1e-5,5e-4))
     learn.save('stage-2')
     
     learn.recorder.plot_losses()
     find_and_plot_lr()
     
-    learn.fit_one_cycle(4, max_lr=slice(1e-6,1e-5))
+    learn.fit_one_cycle(10, max_lr=slice(1e-4,3e-4))
     learn.recorder.plot_losses()
+    learn.save('stage-3')
+    
+    find_and_plot_lr()
+    
+    learn.fit_one_cycle(4, max_lr=slice(1e-5,1e-4))
     learn.save('stage-final')
+    
+    learn.recorder.plot_losses()
     
     # The classificationInterpretation object contains all the information needed to interperate the model.
     # These are the things I will be looking at in the next 4 lines of code.
