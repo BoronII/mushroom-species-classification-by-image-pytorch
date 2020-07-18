@@ -20,4 +20,4 @@ localized geographical area. I learned that mushroom foraging is a popular
 activity in the Canadian province of British Columbia. Being a canadian myseld, 
 this is the geographical region I decided to focus my efforts on.
 
-The rest of the details can be found in the current version of the exposition notebook for this project. 
+The rest of the details can be found in the latest version of the exposition notebook for this project. 
