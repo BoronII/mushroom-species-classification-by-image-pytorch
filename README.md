@@ -11,16 +11,16 @@ Introduction:
 Being able to tell one mushroom species from another can mean the difference 
 between picking yourself a tasty meal or ending up with something that could 
 make you sick or even lead to death. Approximately 14,000 species of mushrooms 
-have been cataloged world wide and creating a classifier that has been trained 
+have been cataloged worldwide and creating a classifier that has been trained 
 on all of these species presents a data collection challenge that I was not 
-prepared to undertake. In this project I wanted to perform the data collection 
-and data cleaning steps myself, to keep things managable I decided to work 
+prepared to undertake. In this project, I wanted to perform the data collection 
+and data cleaning steps myself, to keep things manageable I decided to work 
 toward creating a classifier that will be useful to people foraging in a more 
 localized geographical area. I learned that mushroom foraging is a popular 
-activity in the Canadian province of British Columbia. Being a canadian myseld, 
+activity in the Canadian province of British Columbia. Being a Canadian myself, 
 this is the geographical region I decided to focus my efforts on.
 
-The rest of the details can be found in the latest version of the exposition notebook for this project. 
+The rest of the details can be found in the exposition notebook for this project. 
 
 To try this classifier on your own mushroom images visit my Binder page: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BoronII/mushroom-species-classification-by-image-pytorch/master?urlpath=%2Fvoila%2Frender%2FProduction.ipynb)
