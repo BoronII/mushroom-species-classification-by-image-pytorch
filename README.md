@@ -22,6 +22,4 @@ this is the geographical region I decided to focus my efforts on.
 
 The rest of the details can be found in the exposition notebook for this project. 
 
-To try this classifier on your own mushroom images visit my Binder page: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BoronII/mushroom-species-classification-by-image-pytorch/master?urlpath=%2Fvoila%2Frender%2FProduction.ipynb)
 
