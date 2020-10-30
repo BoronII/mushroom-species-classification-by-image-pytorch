@@ -1,6 +1,6 @@
 # mushroom-species-classification-by-image-pytorch
-The project is presented in the exposition notebook
-the purpose of this project is for me to learn about deep learning with 
+Full details of the project is presented in the exposition notebook.
+The purpose of this project is for me to learn about deep learning with 
 PyTorch, using the fastai front end. 
 
 Keywords: neural nets, deep learning, pytorch, fastai, transfer learning, 
@@ -44,8 +44,17 @@ This tool had the advantage of allowing me to automate the gathering of a data s
 
 My reasoning for removing these images was that they would be misleading the classifier in some way.
 
-The initial data set was cleaned by me, I made two passes through the entire set of images, looking at each image, and deleting any misleading images. In the process of doing this, three of the categories ended up with fewer than 50 images, these categories were excluded from the final data set. The final data set contains 16729 images from 73 categories, 80 percent of the images were used for training, the remaining 20 percent was used for validation
+The initial data set was cleaned by me, I made two passes through the entire set of images, looking at each image, and deleting any misleading images. In the process of doing this, three of the categories ended up with fewer than 50 images, these categories were excluded from the final data set. The final data set contains 16729 images from 73 categories, 80 percent of the images were used for training, the remaining 20 percent was used for validation.
 
-The rest of the details can be found in the exposition notebook for this project. 
+## Modeling results
+
+The plot belows shows the images from the validation set for which the loss is greatest, along with their predicted class, actual class, loss, and probability of actual class.
+
+![top_losses.png](attachment:top_losses.png)
+
+
+
+
+
 
 
