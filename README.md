@@ -50,7 +50,7 @@ The initial data set was cleaned by me, I made two passes through the entire set
 
 The plot belows shows the images from the validation set for which the loss is greatest, along with their predicted class, actual class, loss, and probability of actual class.
 
-![top_losses.png](attachment:top_losses.png)
+![top_losses.png](https://github.com/BoronII/mushroom-species-classification-by-image-pytorch/blob/master/images/top_losses.png)
 
 
 
