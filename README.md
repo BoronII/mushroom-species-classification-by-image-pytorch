@@ -46,6 +46,12 @@ My reasoning for removing these images was that they would be misleading the cla
 
 The initial data set was cleaned by me, I made two passes through the entire set of images, looking at each image, and deleting any misleading images. In the process of doing this, three of the categories ended up with fewer than 50 images, these categories were excluded from the final data set. The final data set contains 16729 images from 73 categories, 80 percent of the images were used for training, the remaining 20 percent was used for validation.
 
+## Modeling approach
+
+For the neural net architecture, I choose resnet50, a convolutional neural network designed to perform well on image classification tasks. Rather than initializing the parameters of the neural net randomly, we will use a pre-trained version of resnet50 that has been trained with over 1 million images from the imagenet database, consisting of images from 1000 categories. This idea is known as transfer learning. Transfer learning will allow us to train a neural network that is good at recognizing images of mushrooms, with a relatively small amount of data. It works because the neural net starts out already able to recognize images, it only needs to be fine-tuned and specialized to recognize mushroom images. The modeling approach included data augmentation.
+
+The model was built and trained using the Fastai library which adds functionality to PyTorch. For instance, Fastai made it easy to apply the data augmentation. 
+
 ## Modeling results
 
 The plot belows shows the images from the validation set for which the loss is greatest, along with their predicted class, actual class, loss, and probability of actual class.
