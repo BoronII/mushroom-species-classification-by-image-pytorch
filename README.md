@@ -1,5 +1,5 @@
 # mushroom-species-classification-by-image-pytorch
-Full details of the project is presented in the exposition notebook.
+*Full details of the project is presented in the exposition notebook.*
 The purpose of this project is for me to learn about deep learning with 
 PyTorch, using the fastai front end. 
 
