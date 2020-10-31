@@ -58,9 +58,4 @@ The plot belows shows the images from the validation set for which the loss is g
 
 ![top_losses.png](https://github.com/BoronII/mushroom-species-classification-by-image-pytorch/blob/master/images/top_losses.png)
 
-The analysis of the results showed that most of the classification errors were within family misclassifications (one species of mushroom mistaken for another in the same family) or were the result of mislabeled instances in the training data. It should be possible to improve the classification accuracy by taking more careful data cleaning steps.
-
-
-
-
-
+The analysis of the results showed that most of the classification errors were within family misclassifications (one species of mushroom mistaken for another in the same family) or were the result of mislabeled instances in the training data. 
